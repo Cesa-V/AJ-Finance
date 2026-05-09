@@ -1,3 +1,3 @@
-import{Home,Shirt,Bus,Umbrella,CircleHelp,CircleDollarSign,ArrowLeftRight,Plane,Star,Utensils,Bell,CircleAlert,GraduationCap,Briefcase,PawPrint,FirstAidKit,Wrench,Wallet,Plus,Settings,House,LogOut,Search,ChevronLeft,CreditCard,User,Repeat,Spreadsheet,X}from'lucide-react';
-const map={Home,Shirt,Bus,Umbrella,CircleHelp,CircleDollarSign,ArrowLeftRight,Plane,Star,Utensils,Bell,CircleAlert,GraduationCap,Briefcase,PawPrint,FirstAidKit,Wrench,Wallet,Plus,Settings,House,LogOut,Search,ChevronLeft,CreditCard,User,Repeat,Spreadsheet,X};
+import{Home,Shirt,Bus,Umbrella,CircleHelp,CircleDollarSign,ArrowLeftRight,Plane,Star,Utensils,Bell,CircleAlert,GraduationCap,Briefcase,PawPrint,HeartPulse,Wrench,Wallet,Plus,Settings,House,LogOut,Search,ChevronLeft,CreditCard,User,Repeat,Table2,X}from'lucide-react';
+const map={Home,Shirt,Bus,Umbrella,CircleHelp,CircleDollarSign,ArrowLeftRight,Plane,Star,Utensils,Bell,CircleAlert,GraduationCap,Briefcase,PawPrint,HeartPulse,Wrench,Wallet,Plus,Settings,House,LogOut,Search,ChevronLeft,CreditCard,User,Repeat,Table2,X};
 export function Icon({name,size=22,className=''}){const C=map[name]||CircleHelp;return <C size={size} className={className}/>}
