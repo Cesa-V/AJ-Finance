@@ -1,0 +1,1 @@
+const P='ajfinance:';export const storage={get(k,f=null){try{const r=localStorage.getItem(P+k);return r?JSON.parse(r):f}catch{return f}},set(k,v){localStorage.setItem(P+k,JSON.stringify(v))},remove(k){localStorage.removeItem(P+k)}};
